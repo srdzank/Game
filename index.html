@@ -18,13 +18,13 @@
                 height: 100%;
             }
         </style>
-    <link rel="modulepreload" href="/max_penalty_wasm-5ea0c14fea29e795.js" crossorigin="anonymous" integrity="sha384-R8q1Q3F56WMLGVqAWhXbzxxRrItYGBq+sThbQpDajAtYw7UQLoXPgmu5+shHyXG5"><link rel="preload" href="/max_penalty_wasm-5ea0c14fea29e795_bg.wasm" crossorigin="anonymous" integrity="sha384-hC2sRWkpMvGKM/fpQUbL2hWI9RgVHYThUDj8dXxzRTCHLcct02sfYnCyrqNfpfug" as="fetch" type="application/wasm"></head>
+    <link rel="modulepreload" href="/Game/max_penalty_wasm-5ea0c14fea29e795.js" crossorigin="anonymous" integrity="sha384-R8q1Q3F56WMLGVqAWhXbzxxRrItYGBq+sThbQpDajAtYw7UQLoXPgmu5+shHyXG5"><link rel="preload" href="/Game/max_penalty_wasm-5ea0c14fea29e795_bg.wasm" crossorigin="anonymous" integrity="sha384-hC2sRWkpMvGKM/fpQUbL2hWI9RgVHYThUDj8dXxzRTCHLcct02sfYnCyrqNfpfug" as="fetch" type="application/wasm"></head>
     <body>
         <canvas id="the_canvas_id"></canvas>
     
 <script type="module">
-import init, * as bindings from '/max_penalty_wasm-5ea0c14fea29e795.js';
-const wasm = await init({ module_or_path: '/max_penalty_wasm-5ea0c14fea29e795_bg.wasm' });
+import init, * as bindings from '/Game/max_penalty_wasm-5ea0c14fea29e795.js';
+const wasm = await init({ module_or_path: '/Game/max_penalty_wasm-5ea0c14fea29e795_bg.wasm' });
 
 
 window.wasmBindings = bindings;
